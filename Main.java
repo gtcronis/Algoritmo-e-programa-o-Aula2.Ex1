@@ -1,19 +1,18 @@
-//Gabriel Tolcsvai de Cronis
-// Análise e Desenvolvimento de Sistemas/ Senac/ 1º Semestre
-// Faça um algoritmo para imprimir em cada linha: o seu nome  completo, o seu registro acadêmico, o seu curso
+// //Gabriel Tolcsvai de Cronis
+//Análise e Desenvolvimento de Sistemas/ Senac/ 1º Semestre
+//Faça um algoritmo para imprimir em cada linha: a sua idade, a sua altura o seu status na aula: Presente ou Ausente.
+
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        
-        String nome;
-        String registroAcademico;
-        String curso;
-
-        nome="Gabriel Tolcsvai de Cronis";
-        registroAcademico="1140741084";
-        curso="Análise e Desenvolvimento de Sistemas";
-        System.out.println("Nome completo"+ nome);
-        System.out.println("Registro acadêmico: "+ registroAcademico);
-        System.out.println("Curso: "+ curso);
-
+        int idade=35;
+        double altura=1.75;
+        Scanner e=new Scanner(System.in);
+        System.out.println("Você está presente ou ausente nessa aula?");
+        String status= e.nextLine();
+        System.out.println("Idade: "+ idade);
+        System.out.println("Altura: "+ altura);
+        System.out.println("Status: "+ status);
     }
-}
+        }
+
