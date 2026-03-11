@@ -1,3 +1,4 @@
+////Gabriel Tolcsvai de Cronis
 //Ler dois valores inteiros:e se forem iguais, mostrar “Números iguais”;
 // caso contrário, apresentar a diferença do maior pelo menor.
 
@@ -26,3 +27,4 @@ public class Aula3Ex3 {
             e.close();
     }
 }
+
