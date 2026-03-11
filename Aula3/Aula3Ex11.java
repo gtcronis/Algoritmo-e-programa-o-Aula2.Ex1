@@ -1,3 +1,4 @@
+//Gabriel Tolcsvai de Cronis
 //Faça um algoritmo que receba a idade de um nadador e 	imprima a sua categoria seguindo as regras
 //Categoria infantil A 5-7 anos
 //Categoria infantil B 8-10 anos
