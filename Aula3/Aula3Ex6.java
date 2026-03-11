@@ -1,8 +1,8 @@
 //Faça um algoritmo que leia a altura e o sexo de uma pessoa:
 //calcule e mostre seu peso ideal.
 //usar as formulas a seguir para calcular o peso ideal:
-// para o sexo masculino: p72, 7 ˆ alturaq ´ 58
-//para o sexo feminino: p62, 1 ˆ alturaq ´ 44, 7
+// para o sexo feminino: 52 kg + 0,75 x (Altura - 152,4)
+//para o sexo masculino: 72,7 +0,75 x ( Altura - 152,4)
 
 import java.util.Scanner;
 public class Aula3Ex6 {
@@ -23,20 +23,21 @@ public class Aula3Ex6 {
             return;
                     }
 
-        System.out.println("Digite sua altura em metros: ");
+        System.out.println("Digite sua altura em centímetros: ");
         altura = e.nextDouble();
 
 
         if (sexo == 'M' || sexo =='m') {
-            pesoIdeal = (72.7 * altura - 58);
+            pesoIdeal = (72.7 + 0.75 * (altura - 152.4));
             System.out.printf("Seu peso ideal é %.2f kg%n", pesoIdeal);
         } else {
-        pesoIdeal = (62.1 * altura) - 44.7;
+        pesoIdeal = (52 + 0.75 * (altura - 152.4));
         System.out.printf("Seu peso ideal é %.2f kg%n", pesoIdeal);
 
             }
         e.close();
         }
     }
+
 
 
