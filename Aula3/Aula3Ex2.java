@@ -1,3 +1,4 @@
+//Gabriel Tolcsvai de Cronis
 //Faça um algoritmo que:receba a idade de uma pessoa;
 //se for maior de idade imprima: “maior de idade”;
 //senão imprima: “menor de idade
@@ -19,4 +20,5 @@ if(idade >= 18) {
     e.close();
 }
     }
+
     }
