@@ -1,6 +1,7 @@
+//Gabriel Tolcsvai de Cronis
 //Faça um algoritmo que leia o salário e a quantidade de anos de cada 	funcionário, calcule e imprima o valor do bônus.
 //20% do valor do salário a todos os funcionários com tempo de trabalho igual ou superior a cinco anos
-//  de 10% aos demais funcionários.
+// de 10% aos demais funcionários.
 
 
 import java.util.Scanner;
@@ -30,5 +31,6 @@ System.out.printf("O valor do bônus será de R$ %.2f%n", bonus);
         e.close();
     }
 }
+
 
 
