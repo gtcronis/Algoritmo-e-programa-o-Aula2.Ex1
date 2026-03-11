@@ -1,3 +1,4 @@
+////Gabriel Tolcsvai de Cronis
 // Faça um algoritmo para encontrar o maior número entre 3 	números inteiros.
 //O algoritmo deve ler três inteiros;
 //se forem todos iguais, imprimir: “os números são iguais”;
@@ -30,3 +31,4 @@ e.close();
 
     }
 }
+
