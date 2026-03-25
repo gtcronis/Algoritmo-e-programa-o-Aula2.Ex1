@@ -1,3 +1,4 @@
+////Gabriel Tolcsvai de Cronis
 //Faça um algoritmo que imprima a metade de cada número de 10 a 20.
 
 
