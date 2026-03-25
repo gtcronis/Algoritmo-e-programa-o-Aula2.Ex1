@@ -9,7 +9,7 @@ public class Ex9 {
         double preco = 0;
         double totalProduto;
         double totalCompra = 0;
-        char continuar = 'S';  // inicialização evita erro de compilação
+        char continuar = 'S';  
 
         do {
             System.out.println("Digite o código do produto:");
@@ -36,7 +36,7 @@ public class Ex9 {
                     break;
                 default:
                     System.out.println("Código inválido! Tente novamente.");
-                    continue; // volta pro início do loop sem seguir adiante
+                    continue; 
             }
 
             System.out.println("Digite a quantidade:");
