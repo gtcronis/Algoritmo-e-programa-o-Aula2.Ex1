@@ -1,3 +1,4 @@
+////Gabriel Tolcsvai de Cronis
 //Faça um algoritmo que leia 10 números inteiros e diga:
 //quantos são pares e quantos são ímpares.
 
