@@ -1,3 +1,4 @@
+////Gabriel Tolcsvai de Cronis
 //Faça um algoritmo que leia dez números inteiros e positivos
 //mostre o menor entre eles.
 
